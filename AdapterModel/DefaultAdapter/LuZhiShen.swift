@@ -31,7 +31,7 @@ class LuZhiShen: NSObject,MookRouteProtocol {
     }
     
     func getName() -> String {
-        return "鲁智深"
+        return "假鲁智深,里面有很多的空方法"
     }
 }
 
