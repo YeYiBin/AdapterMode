@@ -51,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB520F3B1FA1C7E7005ED909 /* ClassAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				BBBB78481FA094150063CCA6 /* BusinessCardView.swift */,
+				BB520F2D1FA174AB005ED909 /* BusinessCardAdapter.swift */,
+				BB520F2F1FA1A5DD005ED909 /* NormalModel.swift */,
+				BB520F311FA1A747005ED909 /* NormalModelAdapter.swift */,
+				BB520F351FA1A97B005ED909 /* SpecialModel.swift */,
+				BB520F331FA1A965005ED909 /* SpecialModelAdapter.swift */,
+				BB520F371FA1B06D005ED909 /* CommonUsedAdapter.swift */,
+			);
+			path = ClassAdapter;
+			sourceTree = "<group>";
+		};
 		BBBB782A1FA0900B0063CCA6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,16 +84,10 @@
 		BBBB78351FA0900B0063CCA6 /* AdapterModel */ = {
 			isa = PBXGroup;
 			children = (
+				BB520F391FA1BC11005ED909 /* Header.swift */,
 				BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */,
 				BBBB78381FA0900B0063CCA6 /* ViewController.swift */,
-				BBBB78481FA094150063CCA6 /* BusinessCardView.swift */,
-				BB520F2D1FA174AB005ED909 /* BusinessCardAdapter.swift */,
-				BB520F2F1FA1A5DD005ED909 /* NormalModel.swift */,
-				BB520F311FA1A747005ED909 /* NormalModelAdapter.swift */,
-				BB520F351FA1A97B005ED909 /* SpecialModel.swift */,
-				BB520F331FA1A965005ED909 /* SpecialModelAdapter.swift */,
-				BB520F371FA1B06D005ED909 /* CommonUsedAdapter.swift */,
-				BB520F391FA1BC11005ED909 /* Header.swift */,
+				BB520F3B1FA1C7E7005ED909 /* ClassAdapter */,
 				BBBB783A1FA0900B0063CCA6 /* Main.storyboard */,
 				BBBB783D1FA0900B0063CCA6 /* Assets.xcassets */,
 				BBBB783F1FA0900B0063CCA6 /* LaunchScreen.storyboard */,
