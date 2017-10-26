@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB520F2E1FA174AB005ED909 /* BusinessCardAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F2D1FA174AB005ED909 /* BusinessCardAdapter.swift */; };
 		BBBB78371FA0900B0063CCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */; };
 		BBBB78391FA0900B0063CCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78381FA0900B0063CCA6 /* ViewController.swift */; };
 		BBBB783C1FA0900B0063CCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBB783A1FA0900B0063CCA6 /* Main.storyboard */; };
 		BBBB783E1FA0900B0063CCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBB783D1FA0900B0063CCA6 /* Assets.xcassets */; };
 		BBBB78411FA0900B0063CCA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBB783F1FA0900B0063CCA6 /* LaunchScreen.storyboard */; };
+		BBBB78491FA094150063CCA6 /* BusinessCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78481FA094150063CCA6 /* BusinessCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB520F2D1FA174AB005ED909 /* BusinessCardAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardAdapter.swift; sourceTree = "<group>"; };
 		BBBB78331FA0900B0063CCA6 /* AdapterModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdapterModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBB78381FA0900B0063CCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		BBBB783D1FA0900B0063CCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBBB78401FA0900B0063CCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBBB78421FA0900B0063CCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBB78481FA094150063CCA6 /* BusinessCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */,
 				BBBB78381FA0900B0063CCA6 /* ViewController.swift */,
+				BBBB78481FA094150063CCA6 /* BusinessCardView.swift */,
+				BB520F2D1FA174AB005ED909 /* BusinessCardAdapter.swift */,
 				BBBB783A1FA0900B0063CCA6 /* Main.storyboard */,
 				BBBB783D1FA0900B0063CCA6 /* Assets.xcassets */,
 				BBBB783F1FA0900B0063CCA6 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				BBBB78391FA0900B0063CCA6 /* ViewController.swift in Sources */,
 				BBBB78371FA0900B0063CCA6 /* AppDelegate.swift in Sources */,
+				BBBB78491FA094150063CCA6 /* BusinessCardView.swift in Sources */,
+				BB520F2E1FA174AB005ED909 /* BusinessCardAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
