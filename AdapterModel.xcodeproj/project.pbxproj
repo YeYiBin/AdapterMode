@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BB520F2E1FA174AB005ED909 /* BusinessCardAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F2D1FA174AB005ED909 /* BusinessCardAdapter.swift */; };
+		BB520F301FA1A5DD005ED909 /* NormalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F2F1FA1A5DD005ED909 /* NormalModel.swift */; };
+		BB520F321FA1A747005ED909 /* NormalModelAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F311FA1A747005ED909 /* NormalModelAdapter.swift */; };
+		BB520F341FA1A965005ED909 /* SpecialModelAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F331FA1A965005ED909 /* SpecialModelAdapter.swift */; };
+		BB520F361FA1A97B005ED909 /* SpecialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F351FA1A97B005ED909 /* SpecialModel.swift */; };
+		BB520F381FA1B06D005ED909 /* CommonUsedAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F371FA1B06D005ED909 /* CommonUsedAdapter.swift */; };
+		BB520F3A1FA1BC11005ED909 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F391FA1BC11005ED909 /* Header.swift */; };
 		BBBB78371FA0900B0063CCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */; };
 		BBBB78391FA0900B0063CCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78381FA0900B0063CCA6 /* ViewController.swift */; };
 		BBBB783C1FA0900B0063CCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBB783A1FA0900B0063CCA6 /* Main.storyboard */; };
@@ -18,6 +24,12 @@
 
 /* Begin PBXFileReference section */
 		BB520F2D1FA174AB005ED909 /* BusinessCardAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardAdapter.swift; sourceTree = "<group>"; };
+		BB520F2F1FA1A5DD005ED909 /* NormalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalModel.swift; sourceTree = "<group>"; };
+		BB520F311FA1A747005ED909 /* NormalModelAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalModelAdapter.swift; sourceTree = "<group>"; };
+		BB520F331FA1A965005ED909 /* SpecialModelAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialModelAdapter.swift; sourceTree = "<group>"; };
+		BB520F351FA1A97B005ED909 /* SpecialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialModel.swift; sourceTree = "<group>"; };
+		BB520F371FA1B06D005ED909 /* CommonUsedAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUsedAdapter.swift; sourceTree = "<group>"; };
+		BB520F391FA1BC11005ED909 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		BBBB78331FA0900B0063CCA6 /* AdapterModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdapterModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBB78381FA0900B0063CCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +74,12 @@
 				BBBB78381FA0900B0063CCA6 /* ViewController.swift */,
 				BBBB78481FA094150063CCA6 /* BusinessCardView.swift */,
 				BB520F2D1FA174AB005ED909 /* BusinessCardAdapter.swift */,
+				BB520F2F1FA1A5DD005ED909 /* NormalModel.swift */,
+				BB520F311FA1A747005ED909 /* NormalModelAdapter.swift */,
+				BB520F351FA1A97B005ED909 /* SpecialModel.swift */,
+				BB520F331FA1A965005ED909 /* SpecialModelAdapter.swift */,
+				BB520F371FA1B06D005ED909 /* CommonUsedAdapter.swift */,
+				BB520F391FA1BC11005ED909 /* Header.swift */,
 				BBBB783A1FA0900B0063CCA6 /* Main.storyboard */,
 				BBBB783D1FA0900B0063CCA6 /* Assets.xcassets */,
 				BBBB783F1FA0900B0063CCA6 /* LaunchScreen.storyboard */,
@@ -142,10 +160,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB520F3A1FA1BC11005ED909 /* Header.swift in Sources */,
+				BB520F301FA1A5DD005ED909 /* NormalModel.swift in Sources */,
 				BBBB78391FA0900B0063CCA6 /* ViewController.swift in Sources */,
+				BB520F381FA1B06D005ED909 /* CommonUsedAdapter.swift in Sources */,
+				BB520F321FA1A747005ED909 /* NormalModelAdapter.swift in Sources */,
 				BBBB78371FA0900B0063CCA6 /* AppDelegate.swift in Sources */,
 				BBBB78491FA094150063CCA6 /* BusinessCardView.swift in Sources */,
+				BB520F341FA1A965005ED909 /* SpecialModelAdapter.swift in Sources */,
 				BB520F2E1FA174AB005ED909 /* BusinessCardAdapter.swift in Sources */,
+				BB520F361FA1A97B005ED909 /* SpecialModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
