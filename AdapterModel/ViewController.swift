@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 对象适配器模式
 //        normalModelAdapterExample()
 //        specialModelAdapterExample()
 //        commonUsedAdapterExample()
@@ -20,6 +21,9 @@ class ViewController: UIViewController {
         //  下面介绍
         classAdapterExample()
 //        classAdapterExampleTwo()
+        
+        // 默认适配器模式
+        defaultAdapter()
         
     }
 
@@ -95,7 +99,7 @@ class ViewController: UIViewController {
         self.view.addSubview(cardView)
     }
     
-    func classAdapterExampleTwo()  {
+    private func classAdapterExampleTwo()  {
         
         let data1:AdapterSpecialModel = AdapterSpecialModel()
         data1.name = "DeLongYang"
@@ -107,6 +111,16 @@ class ViewController: UIViewController {
         cardView.loadData(data: data1)
         self.view.addSubview(cardView)
     }
+    
+    // 下面 展示 默认的适配器模式
+    private func defaultAdapter(){
+        let mook:TrueLuZhiShen = TrueLuZhiShen()
+        let name = mook.getName()
+        print(name)
+        mook.xiWu()
+    }
+    
+    
 }
 
 

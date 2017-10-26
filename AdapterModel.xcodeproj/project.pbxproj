@@ -16,6 +16,9 @@
 		BB520F3A1FA1BC11005ED909 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F391FA1BC11005ED909 /* Header.swift */; };
 		BB520F661FA1E0E5005ED909 /* AdapterNormalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F651FA1E0E5005ED909 /* AdapterNormalModel.swift */; };
 		BB520F681FA1E2E8005ED909 /* AdapterSpecialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F671FA1E2E8005ED909 /* AdapterSpecialModel.swift */; };
+		BB520F6B1FA1EB38005ED909 /* LuZhiShen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F6A1FA1EB38005ED909 /* LuZhiShen.swift */; };
+		BB520F6D1FA1ED55005ED909 /* TianXing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F6C1FA1ED55005ED909 /* TianXing.swift */; };
+		BB520F6F1FA1EDA5005ED909 /* TrueLuZhiShen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520F6E1FA1EDA5005ED909 /* TrueLuZhiShen.swift */; };
 		BBBB78371FA0900B0063CCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */; };
 		BBBB78391FA0900B0063CCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78381FA0900B0063CCA6 /* ViewController.swift */; };
 		BBBB783C1FA0900B0063CCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBB783A1FA0900B0063CCA6 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 		BB520F391FA1BC11005ED909 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		BB520F651FA1E0E5005ED909 /* AdapterNormalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterNormalModel.swift; sourceTree = "<group>"; };
 		BB520F671FA1E2E8005ED909 /* AdapterSpecialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterSpecialModel.swift; sourceTree = "<group>"; };
+		BB520F6A1FA1EB38005ED909 /* LuZhiShen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuZhiShen.swift; sourceTree = "<group>"; };
+		BB520F6C1FA1ED55005ED909 /* TianXing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TianXing.swift; sourceTree = "<group>"; };
+		BB520F6E1FA1EDA5005ED909 /* TrueLuZhiShen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueLuZhiShen.swift; sourceTree = "<group>"; };
 		BBBB78331FA0900B0063CCA6 /* AdapterModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdapterModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBB78381FA0900B0063CCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +84,16 @@
 			path = ClassAdapter;
 			sourceTree = "<group>";
 		};
+		BB520F701FA1EE1C005ED909 /* DefaultAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				BB520F6A1FA1EB38005ED909 /* LuZhiShen.swift */,
+				BB520F6C1FA1ED55005ED909 /* TianXing.swift */,
+				BB520F6E1FA1EDA5005ED909 /* TrueLuZhiShen.swift */,
+			);
+			path = DefaultAdapter;
+			sourceTree = "<group>";
+		};
 		BBBB782A1FA0900B0063CCA6 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +116,7 @@
 				BB520F391FA1BC11005ED909 /* Header.swift */,
 				BBBB78361FA0900B0063CCA6 /* AppDelegate.swift */,
 				BBBB78381FA0900B0063CCA6 /* ViewController.swift */,
+				BB520F701FA1EE1C005ED909 /* DefaultAdapter */,
 				BB520F691FA1E467005ED909 /* ClassAdapter */,
 				BB520F3B1FA1C7E7005ED909 /* ObjectAdapter */,
 				BBBB783A1FA0900B0063CCA6 /* Main.storyboard */,
@@ -183,10 +200,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB520F3A1FA1BC11005ED909 /* Header.swift in Sources */,
+				BB520F6D1FA1ED55005ED909 /* TianXing.swift in Sources */,
 				BB520F301FA1A5DD005ED909 /* NormalModel.swift in Sources */,
+				BB520F6F1FA1EDA5005ED909 /* TrueLuZhiShen.swift in Sources */,
 				BBBB78391FA0900B0063CCA6 /* ViewController.swift in Sources */,
 				BB520F681FA1E2E8005ED909 /* AdapterSpecialModel.swift in Sources */,
 				BB520F381FA1B06D005ED909 /* CommonUsedAdapter.swift in Sources */,
+				BB520F6B1FA1EB38005ED909 /* LuZhiShen.swift in Sources */,
 				BB520F321FA1A747005ED909 /* NormalModelAdapter.swift in Sources */,
 				BBBB78371FA0900B0063CCA6 /* AppDelegate.swift in Sources */,
 				BBBB78491FA094150063CCA6 /* BusinessCardView.swift in Sources */,
