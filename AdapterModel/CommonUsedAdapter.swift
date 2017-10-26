@@ -13,7 +13,7 @@ import UIKit
 class CommonUsedAdapter: BusinessCardAdapter {
     override func name() -> String? {
         var name:String?
-        if self.data != nil{
+        if self.data == nil{
             
         }else{
             if self.data!.isMember(of: NormalModel.self){
@@ -32,7 +32,7 @@ class CommonUsedAdapter: BusinessCardAdapter {
     
     override func lineColor() -> UIColor? {
         var color:UIColor?
-        if self.data != nil{
+        if self.data == nil{
             
         }else{
             if self.data!.isMember(of: NormalModel.self){
@@ -59,15 +59,15 @@ class CommonUsedAdapter: BusinessCardAdapter {
     
     override func phoneNumber() -> String? {
         var phoneNumber:String?
-        if self.data != nil{
+        if self.data == nil{
             
         }else{
             if self.data!.isMember(of: NormalModel.self){
                 let normalModel = self.data! as! NormalModel
-                phoneNumber = normalModel.name
+                phoneNumber = normalModel.phoneNumber
             }else if self.data!.isMember(of: SpecialModel.self){
                 let specialModel = self.data! as! SpecialModel
-                phoneNumber = specialModel.name
+                phoneNumber = specialModel.phoneNumber
             }else{
                 phoneNumber = nil
             }
