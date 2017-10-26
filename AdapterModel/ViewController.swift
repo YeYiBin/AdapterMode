@@ -15,8 +15,11 @@ class ViewController: UIViewController {
         
 //        normalModelAdapterExample()
 //        specialModelAdapterExample()
+//        commonUsedAdapterExample()
         
-        commonUsedAdapterExample()
+        //  下面介绍
+        classAdapterExample()
+//        classAdapterExampleTwo()
         
     }
 
@@ -55,8 +58,6 @@ class ViewController: UIViewController {
         
     }
     
-    
-
     // commomUsedAdapter
     private func commonUsedAdapterExample(){
         
@@ -76,6 +77,35 @@ class ViewController: UIViewController {
         cardView.loadData(data: adapter)
         self.view.addSubview(cardView)
         
+    }
+    
+    //  上面三种 都属于 对象适配器
+    
+    // 下面 展示类适配器类型
+    private func classAdapterExample(){
+        
+        let data1:AdapterNormalModel = AdapterNormalModel()
+        data1.name = "DeLongYang"
+        data1.lineColor = UIColor.red
+        data1.phoneNumber = "139-1447-8563"
+        
+        let cardView:BusinessCardView = BusinessCardView(frame:BUSINESS_FRAME)
+        cardView.center = self.view.center
+        cardView.loadData(data: data1)
+        self.view.addSubview(cardView)
+    }
+    
+    func classAdapterExampleTwo()  {
+        
+        let data1:AdapterSpecialModel = AdapterSpecialModel()
+        data1.name = "DeLongYang"
+        data1.colorString = "green"
+        data1.phoneNumber = "139-1447-8563"
+        
+        let cardView:BusinessCardView = BusinessCardView(frame:BUSINESS_FRAME)
+        cardView.center = self.view.center
+        cardView.loadData(data: data1)
+        self.view.addSubview(cardView)
     }
 }
 
